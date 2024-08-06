@@ -16,11 +16,20 @@ The SEO Checker is a Visual Studio Code extension designed to help developers op
 
 ## Usage
 
-1. Install the SEO Checker extension from the Visual Studio Code Marketplace.
-2. Open any HTML file in VS Code.
-3. Run the "Check SEO Tags" command from the command palette (`Ctrl+Shift+P`).
-4. Review the feedback provided in the editor and optimize your HTML accordingly.
+Installing the Extension Locally in VS Code
+Open Visual Studio Code:
 
+Launch VS Code on your machine.
+Install from VSIX:
+
+Open the Extensions view by clicking the Extensions icon in the Activity Bar on the side of the window or by pressing Ctrl+Shift+X.
+Click on the ellipsis (...) in the top-right corner of the Extensions view.
+Select "Install from VSIX..." from the dropdown menu.
+Browse to the location where your vs-code-seo-0.0.1.vsix file is saved and select it.
+Verify Installation:
+
+Once installed, you should see your SEO Checker extension listed among other installed extensions.
+You can open any HTML file and use the "Check SEO Tags" command from the Command Palette (Ctrl+Shift+P) to verify that the extension is working as expected.
 ## Installation
 
 To install the extension, search for "SEO Checker" in the Visual Studio Code Extensions Marketplace and click install.

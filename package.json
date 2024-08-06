@@ -1,0 +1,41 @@
+{
+  "name": "vs-code-seo",
+  "displayName": "SEO Checker",
+  "description": "Checks the length of <title> and <meta name='description'> for SEO optimization.",
+  "version": "0.0.1",
+  "publisher": "compass-solutions",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onCommand:extension.checkSeo"
+  ],
+  "main": "./out/extension.js",
+  "homepage": "https://compasssolutions.us/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CompassSolutionsGa/vs-code-seo"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.checkSeo",
+        "title": "Check SEO Tags"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "@types/he": "^1.2.3",
+    "@types/jest": "^29.5.12",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^12.11.7",
+    "typescript": "^4.4.3",
+    "vscode": "^1.1.34"
+  }
+}

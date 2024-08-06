@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+	  "module": "CommonJS",       // Changed to CommonJS for Node compatibility
+	  "target": "ES2022",
+	  "outDir": "out",
+	  "lib": ["ES2022"],
+	  "sourceMap": true,
+	  "rootDir": "src",
+	  "strict": true,             // Enable all strict type-checking options
+	  "esModuleInterop": true,
+	  "types": ["node", "mocha"], // Added type definitions for Node and Mocha
+	  "noImplicitReturns": true,  // Uncommented for additional checks
+	  "noFallthroughCasesInSwitch": true, // Uncommented for additional checks
+	  "noUnusedParameters": true  // Uncommented for additional checks
+	},
+	"include": [
+	  "src/**/*.ts",
+	  "test/**/*.ts"  // Ensure the inclusion of test files
+	],
+	"exclude": [
+	  "node_modules"  // Standard exclusion of node_modules
+	]
+  }
+  

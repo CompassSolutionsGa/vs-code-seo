@@ -44,5 +44,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Contact
 
-For any questions or support, please contact git@github.com:CompassSolutionsGa/vs-code-seo.git.
+For any questions or support, please contact https://github.com/CompassSolutionsGa/vs-code-seo.
 

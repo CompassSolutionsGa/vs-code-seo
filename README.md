@@ -1,4 +1,4 @@
-# SEO Checker
+# VS CODE SEO Checker Extensions
 
 ## Overview
 
